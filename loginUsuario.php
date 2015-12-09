@@ -24,6 +24,7 @@
 		$_SESSION['fullname'] = $datos['fullname'];
 
 		echo "Bienvenido ".$_SESSION['nombre'];
+		// echo "<a href='testsesion.php'>prueba sesion</a>";
 	}
 	else{
 		// no encontro nada
