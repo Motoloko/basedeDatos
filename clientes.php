@@ -8,7 +8,7 @@
 	<form name="login" action="loginUsuario.php" method="post">
 		<h2>Inicia Sesion!</h2>
 		<label>Usuario:</label> <input type="text" name="nombre"><br>
-		<label>Contraseña:</label> <input type="text" name="contrasena"><br>
+		<label>Contraseña:</label> <input type="password" name="contrasena"><br>
 		<input type="submit">
 	</form>
 
