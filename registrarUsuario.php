@@ -44,7 +44,7 @@
 				$_SESSION['fullname'] = $fullname;
 
 				// sleep(2);
-				// header('Location: /index.php');
+				header('Location: usuario');
 				//echo "El id es: " . $_SESSION['id'];
 			}
 		}

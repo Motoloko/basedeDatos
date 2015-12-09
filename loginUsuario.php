@@ -25,6 +25,7 @@
 
 		echo "Bienvenido ".$_SESSION['nombre'];
 		// echo "<a href='testsesion.php'>prueba sesion</a>";
+		header("Location: usuario");
 	}
 	else{
 		// no encontro nada
