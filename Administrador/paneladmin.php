@@ -8,7 +8,7 @@
 
 	<form>
 		<label>Contraseña del administrador:</label> 
-		<input type="password" id="pass"><br>
+		<input type="password" id="pass" onkeypress="revisarPass();"><br>
 		<input type="button" value="Entrar..." onclick="revisarPass();">
 	</form>
 

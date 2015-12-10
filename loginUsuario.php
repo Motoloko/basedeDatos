@@ -5,7 +5,7 @@
 	$pass = $_POST['contrasena'];
 
 	$query = "SELECT * from cliente where nombre='$nombre' and pass='$pass' ";
-	$result = mysql_query($query);
+	$result = mysql_query($query) or exit(mysql_error());
 
 	$rows = mysql_num_rows($result);
 
