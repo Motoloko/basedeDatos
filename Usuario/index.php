@@ -18,7 +18,7 @@
 	<ul>
 		<li> <a href="editardatos.php">Editar Datos Personales</a> </li>
 		<li> <a href="apartarFecha.php">Rentar una Fecha</a> </li>
-		<!-- <li> <a href="#">Modificar una Fecha</a> </li> -->
+		<li> <a href="vermisfechas.php">Ver mis Fechas</a> </li>
 
 	</ul>
 
