@@ -89,7 +89,7 @@
 		<input name="submit" type="submit" value="Apartar!">
 	</form>
 
-
+	<a href="index.php">Regresar!!</a>
 	
 </body>
 </html>

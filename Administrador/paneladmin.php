@@ -6,12 +6,13 @@
 </head>
 <body>
 
-	<form>
+	
 		<label>Contraseña del administrador:</label> 
 		<input type="password" id="pass" onkeypress="revisarPass();"><br>
 		<input type="button" value="Entrar..." onclick="revisarPass();">
-	</form>
+	
 
+	<a href="../">Salir</a>
 	<div id="resultados">
 		
 		<!-- <a href="#">Dar de alta</a><br>

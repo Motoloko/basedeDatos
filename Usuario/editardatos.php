@@ -28,7 +28,7 @@
 		<input type="submit">
 	</form>
 
-
+<a href="index.php">Regresar!</a>
 	
 
 </body>

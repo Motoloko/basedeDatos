@@ -1,7 +1,7 @@
 <?php
 
 	include ("../conexion.php");
-
+	session_start();
 
 	$fecha = $_GET['fecha'];
 
@@ -55,9 +55,9 @@
 
 
 			}
-
-			$query = "insert into evento (fecha,costo_e,hora_i,hora_f)
-					values ('$fecha',1600,12,9)";
+			$idc = $_SESSION['id'];
+			$query = "insert into evento (id_c,fecha,costo_e,hora_i,hora_f)
+					values ('$idc', '$fecha',1600,12,9)";
 
 			$result = mysql_query($query) or exit(mysql_error());
 

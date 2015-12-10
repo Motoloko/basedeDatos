@@ -10,8 +10,10 @@
 <ul>
 	<li><a href="servicio/editservicio.php">Editar Servicios </a> </li>
 	<li><a href="mobiliario/editservicio.php">Editar Mobiliario </a> </li>
-	<li><a href="#">Ver Eventos</a> </li>
+	<li><a href="vereventos.php">Ver Eventos</a> </li>
 </ul>
+
+<a href="../">Salir</a>
 
 
 </body>
