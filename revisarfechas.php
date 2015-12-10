@@ -16,7 +16,7 @@
 
 			if($row == 0){
 				// fecha disponible
-				echo "<script type='text/javascript'>alert('Esa fecha esta disponible para rentar!');</script>";
+				echo "<script type='text/javascript'>alert('Esa fecha esta disponible para rentar! Registrate o logea para apartar!');</script>";
 			}
 			else{
 				echo "<script type='text/javascript'>alert('Esa fecha ya esta ocupada!');</script>";
