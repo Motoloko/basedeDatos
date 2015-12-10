@@ -1,8 +1,8 @@
 <?php 
 
-	include ("../conexion.php");
+	include ("../../conexion.php");
 
-	$query = "SELECT * FROM servicios";
+	$query = "SELECT * FROM mobiliario";
 	$result = mysql_query($query);
 
 	$rows = mysql_num_rows($result);
@@ -16,12 +16,11 @@
 	<title></title>
 </head>
 <body>
-<h2>Edicion de Servicios</h2>
+<h2>Edicion de Mobiliario</h2>
 
 <table border="1">
 	<tr>
-		<td>ID_s</td>
-		<td>Costo</td>
+		<td>ID_m</td>
 		<td>Nombre</td>
 		<td>Descripcion</td>
 		<td>Editar</td>
@@ -34,12 +33,11 @@
 			while($row = mysql_fetch_assoc($result)){
 				?>
 				<tr>
-					<td><?php echo $row['id_s']; ?></td>
-					<td><?php echo $row['costo_s']; ?></td>
+					<td><?php echo $row['id_m']; ?></td>
 					<td><?php echo $row['nombre']; ?></td>
 					<td><?php echo $row['descripcion']; ?></td>
-					<td><a href="editarserv.php?id_s=<?php echo $row['id_s']?>">Editar!</a> 
-					<td><a href="borrarserb.php?id_s=<?php echo $row['id_s']?>">Borrar!</a>
+					<td><a href="editarserv.php?id_m=<?php echo $row['id_m']?>">Editar!</a> 
+					<td><a href="borrarserb.php?id_m=<?php echo $row['id_m']?>">Borrar!</a>
 				</tr>
 
 			<?php
@@ -54,10 +52,12 @@
 	<h3>Agregar Servicios</h3>
 	<form method="POST" action="agregarservicio.php">
 		<label>Nombre: </label> <input type="text" name="nombre"><br>
-		<label>Costo: </label> <input type="text" name="costo_s"><br>
-		<label>Descripcion: </label> <input type="text" name="descripcion"><br>
+		<label>Descripcion: </label> <textarea name="descripcion"> </textarea><br>
 		<input name="submit" type="submit" >
 	</form>
 
 </body>
 </html>
+
+
+<!-- <input type="text" name="descripcion"> -->

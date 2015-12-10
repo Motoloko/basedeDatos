@@ -8,8 +8,8 @@
 <h2>Panel de Administracion</h2>
 
 <ul>
-	<li><a href="editservicio.php">Editar Servicios </a> </li>
-	<li><a href="#">Editar Mobiliario </a> </li>
+	<li><a href="servicio/editservicio.php">Editar Servicios </a> </li>
+	<li><a href="mobiliario/editservicio.php">Editar Mobiliario </a> </li>
 	<li><a href="#">Ver Eventos</a> </li>
 </ul>
 
